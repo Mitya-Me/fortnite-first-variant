@@ -1,0 +1,73 @@
+@import "fonts";
+@import "variables";
+@import "normalize";
+@import "animation";
+@import "./components/all";
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.btn-close {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    line-height: 25px;
+    padding: 5px;
+    border-radius: 100%;
+    background-color: inherit;
+    color: $bgcol;
+    font-weight: bold;
+    font-size: 25px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:active {
+        color: #f50000;
+    }
+}
+
+.btn {
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: $wfcol;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 0 6px #01b801c6;
+    }
+
+    &--price-low {
+        background-color: $btnlowcol;
+
+        &:hover {
+            box-shadow: 0 0 6px #01b801c6;
+        }
+    }
+
+    &--price-high {
+        color: $wfcol;
+        background-color: $btnhighcol;
+
+        &:hover {
+            box-shadow: 0 0 6px $bgcol;
+        }
+
+        &:active {
+            background-color: #bc00f5;
+            box-shadow: 0 0 10px $bgcol;
+        }
+    }
+}

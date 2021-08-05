@@ -1,0 +1,31 @@
+.basket {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    transition: $tr3e;
+
+    &:hover {
+        box-shadow: 0 0 10px $bgcol;
+    }
+
+    &__img {
+        min-width: 100%;
+        min-height: 100%;
+        position: relative;
+        background: url("../../assets/img/cart.svg") center no-repeat;
+        cursor: pointer;
+    }
+
+    &__count {
+        border-radius: 100px;
+        color: $bgcol;
+        position: absolute;
+        font-size: 13px;
+        top: 10%;
+        right: 12%;
+        font-weight: bold;
+    }
+}

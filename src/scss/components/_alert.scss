@@ -1,0 +1,11 @@
+.alert {
+    transition: $tr3e;
+    color: $bgcol;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    padding: 10px;
+    border: 1px solid $bgcol;
+    border-radius: 20px;
+    animation: makeOpacity .5s ease;
+}

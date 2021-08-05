@@ -1,0 +1,62 @@
+.cartlist {
+    &__item {
+        margin-bottom: 2%;
+    }
+}
+
+.item-classlist {
+    &__descr-top {
+        margin-bottom: 0.5%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__price {
+        font-size: 24px;
+        color: $bgcol;
+        padding-right: 2%;
+    }
+
+    &__name {
+        font-size: 24px;
+        font-weight: bold;
+        position: relative;
+    }
+
+    &__remove {
+        display: inline-block;
+        padding-left: 3%;
+        font-size: 16px;
+        color: grey;
+        cursor: pointer;
+        border-radius: 15px;
+
+        &:hover {
+            color: red;
+            text-decoration: underline;
+        }
+    }
+
+    &__descr-bot {
+    }
+
+    &__qty {
+        font-size: 22px;
+        position: relative;
+        display: flex;
+    }
+
+    &__qty-btn {
+        display: inline-block;
+        padding: 0 2%;
+        color: grey;
+        cursor: pointer;
+
+        &:hover {
+            color:$bgcol;
+            font-weight: bold;
+        }
+    }
+
+}
+

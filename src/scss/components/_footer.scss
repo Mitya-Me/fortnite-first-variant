@@ -1,0 +1,10 @@
+@import '../variables';
+
+.footer {
+    padding: 3% 2%;
+    background-color: $bgcol;
+    text-align: center;
+    font-weight: bold;
+    color: $wfcol;
+    font-size: 35px;
+}

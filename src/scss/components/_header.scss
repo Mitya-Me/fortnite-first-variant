@@ -1,0 +1,10 @@
+@import '../variables';
+
+.header {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: $wfcol;
+    padding: 3% 2%;
+    background-color: $bgcol;
+}
