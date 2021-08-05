@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-fortnite/static/css/main.c31c4024.chunk.css",
-    "main.js": "/react-fortnite/static/js/main.6422f1da.chunk.js",
-    "main.js.map": "/react-fortnite/static/js/main.6422f1da.chunk.js.map",
-    "runtime-main.js": "/react-fortnite/static/js/runtime-main.727c8f25.js",
-    "runtime-main.js.map": "/react-fortnite/static/js/runtime-main.727c8f25.js.map",
-    "static/js/2.c39e0204.chunk.js": "/react-fortnite/static/js/2.c39e0204.chunk.js",
-    "static/js/2.c39e0204.chunk.js.map": "/react-fortnite/static/js/2.c39e0204.chunk.js.map",
-    "index.html": "/react-fortnite/index.html",
-    "static/css/main.c31c4024.chunk.css.map": "/react-fortnite/static/css/main.c31c4024.chunk.css.map",
-    "static/js/2.c39e0204.chunk.js.LICENSE.txt": "/react-fortnite/static/js/2.c39e0204.chunk.js.LICENSE.txt",
-    "static/media/app.scss": "/react-fortnite/static/media/cart.ae47d57a.svg"
+    "main.css": "/fortnite-first-variant/static/css/main.0a783fb8.chunk.css",
+    "main.js": "/fortnite-first-variant/static/js/main.6422f1da.chunk.js",
+    "main.js.map": "/fortnite-first-variant/static/js/main.6422f1da.chunk.js.map",
+    "runtime-main.js": "/fortnite-first-variant/static/js/runtime-main.1a610e46.js",
+    "runtime-main.js.map": "/fortnite-first-variant/static/js/runtime-main.1a610e46.js.map",
+    "static/js/2.c39e0204.chunk.js": "/fortnite-first-variant/static/js/2.c39e0204.chunk.js",
+    "static/js/2.c39e0204.chunk.js.map": "/fortnite-first-variant/static/js/2.c39e0204.chunk.js.map",
+    "index.html": "/fortnite-first-variant/index.html",
+    "static/css/main.0a783fb8.chunk.css.map": "/fortnite-first-variant/static/css/main.0a783fb8.chunk.css.map",
+    "static/js/2.c39e0204.chunk.js.LICENSE.txt": "/fortnite-first-variant/static/js/2.c39e0204.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/fortnite-first-variant/static/media/cart.ae47d57a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.727c8f25.js",
+    "static/js/runtime-main.1a610e46.js",
     "static/js/2.c39e0204.chunk.js",
-    "static/css/main.c31c4024.chunk.css",
+    "static/css/main.0a783fb8.chunk.css",
     "static/js/main.6422f1da.chunk.js"
   ]
 }
