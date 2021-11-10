@@ -12,9 +12,10 @@ const CartList = (props) => {
         0
     );
 
+
     return (
-        <div className='cartlist'>
-            <div className='cartlist__wrapper'>
+        <div className='cartlist' onClick={handleBasketShow}>
+            <div className='cartlist__wrapper' onClick={e => e.stopPropagation()}>
                 <h3 className='cartlist__title'> MY BAG</h3>
 
                 <div className='cartlist__items'>
@@ -37,7 +38,7 @@ const CartList = (props) => {
                     </span>
                 </div>
 
-                <button className='btn-close' onClick={handleBasketShow}>
+                <button className='cartlist__btn-close' onClick={handleBasketShow}>
                     X
                 </button>
             </div>

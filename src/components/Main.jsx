@@ -22,6 +22,7 @@ const Main = () => {
             .then((response) => response.json())
             .then((data) => {
                 setGoods(data.featured);
+                console.log(data.featured)
             });
     }, []);
 
